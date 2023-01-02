@@ -18,3 +18,13 @@ calendar.pdf: calendar.tex pic.tex line.tex grid.pdf
 grid.pdf: grid.tex
 	$(LATEX-CMD) grid.tex
 
+clean:
+	rm calendar.aux
+	rm calendar.fdb_latexmk
+	rm calendar.fls
+	rm calendar.log
+	rm calendar.pdf
+	rm grid.aux
+	rm grid.fdb_latexmk
+	rm grid.fls
+	rm grid.log
