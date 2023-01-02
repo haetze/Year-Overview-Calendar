@@ -12,7 +12,7 @@ description:
 	@echo "You build the calender by calling =make calendar.pdf=."
 
 
-calendar.pdf: calendar.tex pic.tex line.tex
+calendar.pdf: calendar.tex pic.tex line.tex grid.pdf
 	$(LATEX-CMD) calendar.tex
 
 grid.pdf: grid.tex
